@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Hello App Engine</title>
+  </head>
+
+  <body>
+    <h1>Hello App Engine!</h1>
+	<form action="gaejemail" method="get">
+    <table>
+      <tr>
+        <td colspan="2" style="font-weight:bold;">Available Servlets:</td>        
+      </tr>
+      <tr>
+      <td><p>Nhập email đến</p> <input id="email_to" name="email_to" type="text" value="" />
+        </td>
+        <td><p> Nhập tiêu đề</p><input id ="email_subject" name="email_subject" type="text" value=""/>
+        </td> 
+        <td><p>Nhập nội dung</p><input id="email_body" name="email_body" type="text" value=""/> 
+        </td> 
+      </tr>
+      <tr>
+        <td><input type="submit" value="Send Email"/><a href="gaejemail">GAEJExperiments</a></td>
+      </tr>
+    </table>
+    </form>
+  </body>
+</html>
